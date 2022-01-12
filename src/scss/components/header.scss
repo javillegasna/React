@@ -1,0 +1,28 @@
+$header-h:3.4rem;
+$width-colum: 90vw ;
+@import "./tema.scss";
+header{
+    display: flex;
+    height: $header-h;
+    min-height: $header-h;
+    background-color:$color-palete-L007;
+}
+.pict-logo{
+    width: 10vw;
+    display: flex;
+    align-items: center; 
+}
+.pict-logo__img{
+    max-width: 3rem;
+    max-height: 3rem;
+}
+.nav{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav__icon{
+    margin: 0 0.5rem;
+    max-height: 2rem;
+}

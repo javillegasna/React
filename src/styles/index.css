@@ -1,1 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #676C70;
+  background-color: #253142;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 2.9rem;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 2.1rem;
+  padding: 0.1rem 0;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #676C70;
+}
+
+p {
+  width: 100%;
+  margin: 1rem;
+  color: #ABAFB3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #676C70;
+  background-color: #253142;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 2.9rem;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 2.1rem;
+  padding: 0.1rem 0;
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #676C70;
+}
+
+p {
+  width: 100%;
+  margin: 1rem;
+  color: #ABAFB3;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 3.4rem;
+  min-height: 3.4rem;
+  background-color: #FFFFFF;
+}
+
+.pict-logo {
+  width: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pict-logo__img {
+  max-width: 3rem;
+  max-height: 3rem;
+}
+
+.nav {
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.nav__icon {
+  margin: 0 0.5rem;
+  max-height: 2rem;
+}
+
+.PersonCard {
+  width: 200px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=index.css.map */

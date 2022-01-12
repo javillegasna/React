@@ -1,0 +1,44 @@
+$color-palete-L001: #151A1E;
+$color-palete-L003: #253142;
+$color-palete-L004: #4C5257;
+$color-palete-L005: #676C70;
+$color-palete-L006 :#ABAFB3;
+$color-palete-L007: #FFFFFF;
+$color-palete-O001: #151A1A81;
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        box-sizing: border-box;
+      }
+    html{
+        font-size: 62.5%;
+    }
+    
+    body
+    {
+        font-size: 1.6rem;
+        color: $color-palete-L005;
+        background-color: $color-palete-L003;
+        
+    }
+    h1{
+        margin:1rem 0;
+        font-size: 2.9rem;
+        color: $color-palete-L007;
+    }
+    h2{
+        font-size: 2.1rem;
+        padding: 0.1rem 0;
+        color: $color-palete-L007;
+    }
+    
+    a{
+        text-decoration: none;
+        color: $color-palete-L005;
+    }
+    p{
+        width: 100%;
+        margin: 1rem;
+        color: $color-palete-L006;
+    }
