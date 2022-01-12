@@ -7,7 +7,7 @@ This template is intended to be used as a basis for the proposed Coding Dojo boo
 As each activity shares both the dependencies and the folder structure, this repository has been created as a landing point for all of them.
 Each branch will be an individual task with each of its corresponding files, always starting each project from the main branch with:
 
-### git checkout -b TASK_{Task name}
+### `git checkout -b TASK_{Task name}`
 
 This will create a branch with the initial template from which the activity will proceed, thus reusing the proposed structure without the need to perform a npx create-react-app in each of them.
  
