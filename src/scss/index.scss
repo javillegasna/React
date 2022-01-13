@@ -6,4 +6,15 @@
     padding: 5px;
     border: 1px solid $color-palete-L007;
     border-radius: 5px;
+    &__Button{
+        width: 100%;
+        padding: 5px ;
+        border-radius: 5px;
+        cursor: pointer;
+        color: $color-palete-L003;
+        background-color: $color-palete-L007;
+    }
+    &__Button:hover{
+        background-color: $color-palete-L006;
+    }
 }

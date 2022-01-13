@@ -129,4 +129,17 @@ header {
   border: 1px solid #FFFFFF;
   border-radius: 5px;
 }
+
+.PersonCard__Button {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #253142;
+  background-color: #FFFFFF;
+}
+
+.PersonCard__Button:hover {
+  background-color: #ABAFB3;
+}
 /*# sourceMappingURL=index.css.map */
