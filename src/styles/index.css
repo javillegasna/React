@@ -123,7 +123,10 @@ header {
 }
 
 .PersonCard {
-  width: 200px;
-  margin: 0 auto;
+  width: 250px;
+  margin: 10px auto;
+  padding: 5px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=index.css.map */
