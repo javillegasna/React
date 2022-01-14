@@ -1,0 +1,10 @@
+:root{
+    --color-adv-back:#b4a7d6;
+    --color-adv-border:black;
+}
+.adv{
+    width: 100%;
+    height: 20%;
+    background-color: var(--color-adv-back);
+    border:1px solid var(--color-adv-border);
+}
