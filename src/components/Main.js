@@ -6,6 +6,6 @@ const persons =[
     {name:"Maria", lastName:"Smith", age:"62", hairColor:"Brown"}
 ];
 function Main (){
-    return <main> {persons.map((person,index)=> <PersonCard key={`personID${index}`} name={person.name} lastName={person.lastName} age={person.age} hairColor={person.hairColor} /> )} </main>  
+    return <main> {persons.map((person,index)=> <PersonCard key={`personID${index}`} person = {person} /> )} </main>  
 }
 export default Main;
