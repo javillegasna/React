@@ -4,12 +4,12 @@ class PersonCard extends Component{
     constructor(props) {
         super(props);
         this.state = {
-            age: props.age
+            age: props.person.age
         };
     };
     addAgeByOne=()=>{this.setState({age : this.state.age+1})};
     render(){
-        const {name, lastName, hairColor}=this.props
+        const {name, lastName, hairColor}=this.props.person
         return(
             <section className="PersonCard">
                 <h1 className="PersonCard__Title"> {name}, {lastName} </h1>
