@@ -1,0 +1,19 @@
+.card{
+    padding: 5px;
+}
+.card__title{
+    text-align: center;
+    font-size: 18px;
+}
+.card__text{
+    display: flex;
+}
+.card__content{
+    margin-right: 20px;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+.card__data{
+    align-self: center;
+}
