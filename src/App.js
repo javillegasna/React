@@ -2,11 +2,11 @@ import { useState } from "react/cjs/react.development";
 import BoxContainer from "./components/BoxContainer";
 import Formulario from "./components/Formulario";
 function App() {
-  const [listColors, setListColors]= useState([])
+  const [listOfProps, setListOfProps]= useState([])
   return (
     <main className="App">
-      <Formulario listColors={listColors} setListColors={setListColors}/>
-      <BoxContainer listColors={listColors}/>
+      <Formulario listOfProps={listOfProps} setListOfProps={setListOfProps}/>
+      <BoxContainer listOfProps={listOfProps}/>
     </main>
   );
 }

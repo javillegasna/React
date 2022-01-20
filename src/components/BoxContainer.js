@@ -5,10 +5,11 @@ const StiledBoxContainer=styled.section`
     display: flex;
 `;
 
-function BoxContainer({listColors}) {
+function BoxContainer({listOfProps}) {
+    console.log(listOfProps)
     return ( 
         <StiledBoxContainer className="container border">
-            {listColors.map((el,index)=> <Box key={`box${index}`} color={el} ></Box>)}
+            {listOfProps.map((prop,index)=> <Box key={`box${index}`} color={prop.color} width={prop.width} height={prop.height}></Box>)}
         </StiledBoxContainer>
      );
 }
