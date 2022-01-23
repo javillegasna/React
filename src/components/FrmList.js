@@ -5,7 +5,7 @@ function FrmList({ inProgressList, setInProgressList }) {
   const [activity, setAtivity] = useState("");
   //si existe un cambio en el input del formulario lo actualizamos
   const activityHandler = (e) => setAtivity(e.target.value);
-  //Debuelve true si una actividad ya esta ingresada
+  //Devuelve true si una actividad ya esta ingresada
   const findReapeat = inProgressList.reduce(
     (acc, inProgressItem) => acc || inProgressItem === activity,
     false
