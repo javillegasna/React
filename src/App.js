@@ -1,7 +1,13 @@
+import NavBarState from "./components/context/NavBar/NavBarState";
+import FromWrapper from "./components/From/FormWrapper";
+import NavBarWrapper from "./components/NavBar/NavBarWrapper";
+
 function App() {
   return (
-    <main className="App">
-    </main>
+    <NavBarState className="App">
+      <NavBarWrapper/>
+      <FromWrapper/>
+    </NavBarState>
   );
 }
 
