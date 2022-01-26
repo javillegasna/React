@@ -34,5 +34,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This template is intended to be used as a basis for the proposed Coding Dojo bootcamp activities.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javillegasna/template_react.git"
+  },
+  "author": "Javier Villegas <javillegasna@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javillegasna/template_react/issues"
+  },
+  "homepage": "https://github.com/javillegasna/template_react#readme"
 }
