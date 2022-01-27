@@ -1,7 +1,17 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import BoxPage from "./pages/BoxPage";
+import DescriptionPage from "./pages/DescriptionPage";
+import HomePage from "./pages/HomePage";
+
 function App() {
   return (
-    <main className="App">
-    </main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/home" element={<HomePage/>} />
+        <Route path="/" element={<DescriptionPage/>}/>
+        <Route path="/:var/*"element={<BoxPage/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
