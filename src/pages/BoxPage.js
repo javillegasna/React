@@ -12,7 +12,7 @@ const Box = styled.div`
 //Component
 const BoxPage = () => {
   //Params from url
-  const { var: value, "*": styles } = useParams();
+  const { value, "*": styles } = useParams();
   //On multiple params all others params are an string
   const getStyle = (str) => (str !== "" ? str.split("/") : "");
 
