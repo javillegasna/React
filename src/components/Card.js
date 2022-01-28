@@ -1,18 +1,17 @@
 const Card = ({ cardData }) => {
   const keys = Object.keys(cardData);
 
-  const renderData = keys.map((key) =>
-    key === "name" || key === "title"  ? (
-      <h1>{cardData[key]}</h1>
+  const renderData = keys.map((key, index) =>
+    key === "name" || key === "title" ? (
+      <h1 key={`name${index}`}>{cardData[key]}</h1>
     ) : (
-      <p>
+      <p key={`property${index}`}>
         {key}: {cardData[key]}
       </p>
     )
   );
-  console.log(keys);
 
-  return <div>{keys ? renderData : <h1>No Data</h1>}</div>;
+  return <div>{renderData}</div>;
 };
 
 export default Card;
