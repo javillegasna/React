@@ -30,7 +30,7 @@ const AvatarPage = () => {
   }, []);
   return (
     <>
-      {error.state && <p>{World}</p>}
+      {error.state && <p className="container card-header fs-1 text-primary">World: {World}</p>}
       {error.state && <Card cardData={dataAvatar} />}
       {!error.state && <NotFound setError={setError} error={error} />}
     </>
