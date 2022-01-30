@@ -1,17 +1,15 @@
-import { useState } from "react";
-import Card from "./components/Card";
-import FrmApiWalker from "./components/FrmApiWalker";
-import NotFound from "./components/NotFound";
-
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import Home from "./pages/HomePage";
+import AvatarPage from "./pages/AvatarPage";
 function App() {
-  const [cardData, setCardData] = useState({});
-  const [error, setError] = useState({state:true,message:""});
+  
   return (
-   <main className="App">
-      <FrmApiWalker setCardData={setCardData} setError={setError}/>
-      {error.state&&<Card cardData={cardData}/>}
-      {!error.state&& <NotFound setError={setError} error={error}/>}
-    </main>
+   <Router>
+     <Routes>
+       <Route path="/" element={<Home/>}/>
+       <Route path="/:id" element={<AvatarPage/>}/>
+     </Routes>
+   </Router>
   );
 }
 
