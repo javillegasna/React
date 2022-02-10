@@ -8,7 +8,7 @@ const getData = async ({
   }) =>
     axios
       .get(API_URL + query)
-      .then((response) => {setState(response.data); return response.data})
+      .then((response) => {setState(response.data);setError({ state: true, message: customMessage }); return response.data})
       .catch(function (error) {
         setError({ state: false, message: customMessage });
       });

@@ -23,7 +23,6 @@ const FrmApiWalker = ({ setCardData, setError }) => {
   };
   const handlerSearch = (query) => (event) => {
     event.preventDefault()
-    console.log(query)
     getData({
       query,
       setState: setCardData,
